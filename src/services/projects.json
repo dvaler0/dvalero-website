@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Website",
+    "description" : "💻 My personal website",
+    "tags": ["Astro", "Tailwind CSS"],
+    "url" : "https://immdaviid.com/",
+    "url_repo": "https://github.com/dvaler0/website"
+  }
+]

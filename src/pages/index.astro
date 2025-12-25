@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Projects from '../components/Projects.astro';
+---
+
+<Layout title="David Valero - Home">
+	<div class="text-lg md:text-base flex flex-col text-white pt-16 pb-16 md:pt-36 md:pb-36">
+		<div class="flex flex-row items-center justify-between">
+			<div>
+				<p class="text-2xl mb-4">
+					Hi! 👋 <br>
+					<span class="text-4xl md:text-7xl font-bold">I'm <span class="text-yellow-300">David</span> Valero,</span>
+				</p>
+				<p class="md:text-2xl text-gray-300">
+					a <span class="font-bold">full-stack developer</span> passionate about building high-quality web applications
+					<br>
+					with an attractive and functional design
+				</p>
+			</div>
+			<a class="hidden md:flex" href="/">
+				<img 
+					width={220}
+					height={220}
+					src="/images/pic.jpg" 
+					alt="Logo" 
+					class="rounded-full"
+				/>
+			</a>
+		</div>
+	</div>
+	<Projects />
+</Layout>
