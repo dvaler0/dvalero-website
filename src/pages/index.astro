@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Projects from '../components/Projects.astro';
+import { Image } from "astro:assets";
+import pic from "../assets/pic.webp";
 ---
 
 <Layout title="David Valero - Home">
@@ -17,16 +19,15 @@ import Projects from '../components/Projects.astro';
 					with an attractive and functional design.
 				</p>
 			</div>
-			<a class="hidden md:flex" href="/">
-				<img 
-					width={220}
-					height={220}
-					src="/images/pic.jpg" 
-					alt="Logo" 
-					class="rounded-full"
-				/>
-			</a>
+			<Image
+  			src={pic}
+				alt="Imagen principal"
+				width={220}
+				height={220}
+				format="webp"
+				class="hidden md:flex rounded-full"
+			/>
 		</div>
 	</div>
-	<Projects />
+	<!-- <Projects /> -->
 </Layout>

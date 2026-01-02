@@ -1,19 +1,18 @@
 ---
   import links  from '../services/headerLinks.json'
+  import { Image } from "astro:assets";
+  import pic from "../assets/pic.webp";
 ---
 
 <nav class="flex flex-row items-center justify-between md:py-7">
-  <div>
-    <a href="/">
-      <img 
-        width={36}
-        height={36}
-        src="/images/pic.jpg" 
-        alt="Logo" 
-        class="rounded-full"
-      />
-    </a>
-  </div>
+  <Image
+  	src={pic}
+		alt="Imagen principal"
+		width={36}
+		height={36}
+		format="webp"
+		class="rounded-full"
+	/>
   <div class="flex gap-5 flow-row">
     <div class="flex gap-5">
       {
