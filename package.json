@@ -2,6 +2,7 @@
   "name": "immdaviid-portfolio",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@10.26.2",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",
+    "@midudev/tailwind-animations": "^0.2.0",
     "astro": "^5.16.6",
     "flowbite": "^4.0.1",
     "preact": "^10.28.1",
