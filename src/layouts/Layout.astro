@@ -9,11 +9,11 @@ interface Props {
 const { 
 	title, 
 	description = "David Valero - Full-stack developer with over 4 years of experience passionate about building high-quality applications",
-	image = "https://immdaviid.com/images/pic.png",
+	image = "https://www.dvalero.com/images/pic.png",
 	type = "website"
 } = Astro.props;
 
-const siteUrl = Astro.site || "https://immdaviid.com";
+const siteUrl = Astro.site || "https://www.dvalero.com";
 const pageUrl = new URL(Astro.url.pathname, siteUrl).toString();
 
 import Footer from '../components/Footer.astro';
