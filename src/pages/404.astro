@@ -2,8 +2,18 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="404 not found">
-    <section class="flex justify-center items-center min-h-screen">
-        <img src="https://media2.giphy.com/media/DnPbMAyOVVhJHRZHgy/giphy.gif?cid=ecf05e47ucap89zjhwty7v707cpmgwngxupdt6k0n3gtuads&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="404 image">
-    </section>
+<Layout title="404 not found"> 
+    <div class="flex flex-col items-center justify-center h-full text-center">
+        <h1 class="text-6xl md:text-8xl font-bold mb-4">404</h1>
+        <h2 class="text-2xl md:text-4xl font-semibold mb-4 text-gray-300">Page not found</h2>
+        <p class="text-lg md:text-xl text-gray-400 mb-8 max-w-md">
+            Sorry, the page you're looking for doesn't exist or has been moved.
+        </p>
+        <a 
+            href="/" 
+            class="px-6 py-3 bg-yellow-300 text-black font-semibold rounded-md transition-all duration-150 hover:bg-yellow-400 hover:shadow-lg"
+        >
+            Go back home
+        </a>
+    </div>
 </Layout>
