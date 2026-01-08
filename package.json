@@ -15,11 +15,7 @@
     "@midudev/tailwind-animations": "^0.2.0",
     "astro": "^5.16.6",
     "flowbite": "^4.0.1",
-    "preact": "^10.28.1",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.19"
-  },
-  "devDependencies": {
-    "@astrojs/preact": "^4.1.3"
   }
 }
